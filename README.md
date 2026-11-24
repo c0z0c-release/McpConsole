@@ -142,4 +142,7 @@ McpConsole.exe ai-unregister claude       # Claude Code 등록 해제
 
 | 버전 | 변경 사항 |
 |---|---|
+| 1.0.1 | **디버그 모드 추가.** 전역 옵션에서 켜면 프로그램 동작 로그를 로그 디렉터리의 `mcpconsole.log`에 기록. 한글 입력기 상태 변화와 포커스 이동을 추적해 전각 전환 원인 분석 가능. 일반 문자 입력은 기록하지 않음. |
 | 0.6.2 | **최초 공개 버전.** 로컬 셸(cmd, PowerShell, Git Bash, WSL), SSH2, Telnet, 시리얼, FTP/SFTP, HTTP, MCP 세션 지원. 탭 분할 및 드래그 앤 드롭, 세션 관리자, 밀리초 타임스탬프 세션 로그, 화면 검색, Hex 보기, 10개 색상 테마, 한국어 및 English UI 제공. UI, CLI, OLE COM 공통 자동화 명령 및 AI 도구 MCP 연동. |
+
+* 버전 이력 변경 사항 간단 내용만, 코드 없음
